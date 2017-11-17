@@ -1,0 +1,115 @@
+.contactForm {
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 8pt;
+    color: #999999;
+}
+
+.borderArea {
+	height: auto;
+	width: 600px;
+	height: 523.33px;
+	border: 1px solid #e1e1e1;
+	position: relative;
+    left: 120px;
+/*    margin: 0 auto;*/
+    border-radius: 5px;
+
+}
+
+.textField {
+	width: 150px;
+	text-align: right;
+	vertical-align: top;
+    padding-top: 10px;
+
+}
+
+.inputField {
+	width: 460px;
+	text-align: left;
+	vertical-align: top;
+    padding-top: 10px;
+    color: #676767;
+}
+
+.selectForm {
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 8pt;
+    background-image: url('h_input.jpg');
+	background-image: url('input.jpg');
+	background-repeat: no-repeat;
+	border-style: none;
+	background-size: 283px 23px;
+	background-position: 0px 0px;
+    /*box-sizing: border-box;
+    border: 1.2px solid #ccc;
+    border-radius: 5px;*/
+    height: 20px;
+    width: 280px;
+}
+
+.textArea {
+	border: 1px #cacaca solid;
+	height: 100px;
+	width: 274px;
+}
+
+.inputText { 
+	background-image: url('input.jpg');
+	background-repeat: no-repeat;
+	border-style: none;
+	background-size: 283px 22px;
+	background-position: 0px 0px;
+	vertical-align: middle;
+	/*box-sizing: border-box;
+    border: 1.2px solid #ccc;
+    border-radius: 5px;*/
+    height: 17px;
+    width: 280px;
+
+}
+
+  
+.submitButton {
+	background-image: url('submit.jpg');
+	border-style: none;
+	height: 23px;
+	width: 86px;
+	background-repeat: no-repeat;
+	/*border: 2px solid #1290c0;*/
+    cursor: pointer;
+}
+
+.resetButton {
+	background-image: url('reset.jpg');
+	border-style: none;
+	height: 23px;
+	width: 95px;
+	background-repeat: no-repeat;
+	/*border: 2px solid #1290c0;*/
+    cursor: pointer;
+}
+
+.submitButton:hover {
+	background-image: url('submit.jpg');
+	border-style: none;
+	background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: 0px -23px;
+
+}
+
+.resetButton:hover {
+	background-image: url('reset.jpg');
+	border-style: none;
+	background-repeat: no-repeat;
+	/*border: 2px solid #1290c0;*/
+    cursor: pointer;
+    background-position: 0px -23px;
+}
+
+.footer {
+	background-image: url('footer.png');
+	background-size: 610px 40px;
+
+}
